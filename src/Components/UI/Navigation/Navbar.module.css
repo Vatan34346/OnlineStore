@@ -1,0 +1,89 @@
+.navContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: auto;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.leftItems{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: flex-start;
+   margin-left: 6%;
+   margin-right: 27%;
+}
+.centralItem{
+    
+    align-self: center;
+}
+
+.centralIcon{
+    width: 31.18px;
+    height: 28.62px;
+}
+
+.rightItems{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    align-self: flex-end;
+    margin-right: 6%;
+    margin-left: 27%;
+}
+.rightNavItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 0 0.3rem;
+}
+
+
+
+.dollarIcon{
+    width: 12px;
+    height: 29px;
+}
+.dollarIcon:hover{
+    cursor: pointer;
+}
+
+.shooingCarIcon{
+    width: 12px;
+    height: 29px;
+}
+.shooingCarIcon:hover{
+    cursor: pointer;
+}
+
+
+
+.navItem{
+    margin: 0 0.3rem;
+    height: auto;
+}
+.navItem:hover{
+    color:red;
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+

@@ -1,0 +1,18 @@
+.selectView{
+    margin-top: 80px;
+    margin-left: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.optionsView{
+    display: flex;
+    width: 5rem;
+}

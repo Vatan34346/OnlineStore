@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 6%;
+}
+
+.searcH{
+    align-self: flex-start;
+    margin-left: 3%;
+    margin-bottom: 50px;
+}
+
+
+.listItems{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
